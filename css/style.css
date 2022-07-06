@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    padding: 0;
 }
 
 h2{
@@ -22,7 +23,7 @@ h2{
 .initial{
     display: inline-block;
     background-color: black;
-    height: 725px;
+    height: auto;
     width: 100%;
     align-content: center;
 }
@@ -45,10 +46,9 @@ h2{
 }
 
 .chamada-acao{
-    width: 50%;
+    width: 100%;
     text-align: center;
-    margin-left: 25%;  
-    margin-right: 25%;
+    /* margin-right: 25%; */
     line-height: 40px;
     margin-top: -30px;
     margin-bottom: 30px;
@@ -56,22 +56,26 @@ h2{
 
 .div-video{
     width: 100%;
+    justify-content: center;
+    padding-top: 20px;
 }
 
 .video-conversao{
     width: 40%;
-    margin-left: 29%;
+    margin-left: 31%;
+
+    border: none;
 }
 
 .div-botao{
-    margin-left: 30%;
-    width: 37%;
+    width: 100%;
     text-align: center;
     height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .botao-conversao{
-    margin-top: 20px;
     display: inline-block;
     background-color: #ff5300;
     color: white;
@@ -79,7 +83,80 @@ h2{
     padding: 20px;
     font-size: 25px;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: 15px;
     text-decoration: none;
     box-shadow: 0px 0px 7px white;
 }
+
+.botao-conversao-2{
+    display: inline-block;
+    background-color: #ff5300;
+    color: white;
+    font-weight: bold;
+    padding: 20px 40px 20px 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    text-decoration: none;
+    box-shadow: 0px 0px 7px rgb(48, 48, 48);
+}
+
+.section-2{
+    height: 900px;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.livro-geral{
+    display: flex;
+    padding: 0px 0px 0px 70px; 
+    justify-content: center;
+}
+
+.titulo-livro-desafio{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.texto-livro-desafio{
+    display: inline-block;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: center;
+}
+
+.div-img-desafio{
+ padding-top: 30px;
+   
+}
+
+.img-desafio{
+    height: 480px;
+}
+
+.pontos-desafio li{
+    color: rgb(81, 81, 81);
+}
+
+ul{
+    font-size: 20px;
+}
+
+li{
+    margin: 30px 0px 30px 0px;
+    list-style: none;
+}
+
+.pontos-desafio-list{
+    margin: 0px;
+    padding-left: 50px;
+}
+
+i{
+    font-size:25px;
+    color:rgb(164, 0, 0);
+}
+
